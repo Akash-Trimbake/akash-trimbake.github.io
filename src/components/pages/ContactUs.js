@@ -54,7 +54,7 @@ export default function ContactUs() {
             </div>
 
         </div>
-
+{/* ................................................................... */}
         <div class="col-lg-5 animate fadeInRight one" >
           <div class="row gy-4" className='contact-right'>
 
