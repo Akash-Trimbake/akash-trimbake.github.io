@@ -4,7 +4,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Services from './components/pages/Services';
-import ContactUs from './components/pages/ContactUs';
+import Contact from './components/pages/Contact';
 import Courses from './components/pages/Courses';
 import News from './components/pages/News';
 import About from './components/pages/About';
@@ -21,7 +21,7 @@ export default function App() {
         <Route path='/news' element={<News />} />
         <Route path='/accreditation' element={<Accreditation />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/contact-us' element={<ContactUs />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/courses' element={<Courses />} />
       </Routes>
     </Router>

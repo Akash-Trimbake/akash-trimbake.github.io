@@ -28,19 +28,20 @@ export default function NavbarTop() {
           <Nav className="me-auto ">
             <Nav.Link href="/" className='nav-link scrollto'>Home</Nav.Link>
 
-            <NavDropdown title="About" id="basic-nav-dropdown">
-            <Nav.Link><Link className='drop-link' to='/about'>About</Link></Nav.Link>
-            <Nav.Link><Link className='drop-link' to='/news'>News</Link></Nav.Link>
-            <Nav.Link><Link className='drop-link' to='/accreditation'>Accreditation</Link></Nav.Link>
-            </NavDropdown>
-
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <Nav.Link><Link className='drop-link' to='/services'>Services</Link></Nav.Link>
               <Nav.Link><Link className='drop-link' to='/courses'>Courses</Link></Nav.Link>
               
             </NavDropdown>
 
-            <Nav.Link href="/contact-us" className="nav-link scrollto">Contact Us</Nav.Link>
+            <NavDropdown title="About" id="basic-nav-dropdown">
+            <Nav.Link><Link className='drop-link' to='/about'>About</Link></Nav.Link>
+            <Nav.Link><Link className='drop-link' to='/news'>News</Link></Nav.Link>
+            <Nav.Link><Link className='drop-link' to='/accreditation'>Accreditation</Link></Nav.Link>
+            </NavDropdown>
+
+
+            <Nav.Link href="/contact" className="nav-link scrollto">Contact Us</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

@@ -11,9 +11,9 @@ import Phone from './images/phone.gif'
 import Email from './images/email.gif'
 import Clock from './images/clock.gif'
 
-export default function ContactUs() {
+export default function Contact() {
   return (
-    <div className='contact-us' >
+    <div className='contact' >
 
       <h1 style={{textAlign:'center'}} className='animate fadeInDown'>Contact Us</h1>
 
