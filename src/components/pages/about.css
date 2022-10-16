@@ -1,0 +1,49 @@
+.about-div h1 , .about-h2{
+    text-align: center;
+}
+.about-gif{
+    height: 100px;
+    width:  100px;
+    text-align: center;
+}
+.micro-container{
+    text-align: center;
+}
+.info-img{
+    height: 300px;
+    width:  350px;
+}
+.about-info{
+    padding: 0 60px;
+}
+/* .about-info-img{
+    text-align: center;
+} */
+.about-info div {
+    margin: 10px 0;
+}
+.about-info-img3 img {
+    height: 400px;
+    width:  350px;
+}
+.about-info-img img {
+    border-radius: 5px;
+}
+.about-carausel-img{
+    height: 700px;
+    width:  500px;
+}
+/* .about-info-img3{
+    height: 600px;
+    width:  350px;
+} */
+/* ........................................................................ */
+@media screen and (max-width: 768px){
+    .about-info{
+        padding: 0;
+    }
+    .about-info-img img {
+        height: 300px;
+        width:  300px;
+    }
+}
